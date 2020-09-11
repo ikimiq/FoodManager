@@ -18,7 +18,7 @@ msg = MIMEMultipart()
 message = "Thank you" #сообщение которое отправялется
 password = "kingking2281337" # пароль от почты с которой идет отправление
 msg['From'] = "testtesttesttest9990@gmail.com" #почта с которой отправляется
-msg['To'] = "nekrylov1618@gmail.com" # почта куда отправляется
+msg['To'] = "sudamessage@gmail.com" # почта куда отправляется
 msg['Subject'] = "privet" # тема сообщения
 
 msg.attach(MIMEText(message, 'plain'))
